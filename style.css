@@ -3,11 +3,104 @@
 *{
     padding: 0px;
     margin: 0px;
-
+    list-style-type: none;
 }
 body{
-    list-style-type: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
+input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+    background-color: #f1f1f1;
+    outline: none;
+}
+.bg-desk-black{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    width: 35vw;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+}
+.createNewTodo{
+    display: flex;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
 
+.btn-empty{
+    border: 1px solid rgb(184, 178, 178);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.task{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+.container-footer{
+    box-shadow: 5px 5px 20px -15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container-footer > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    color: gray;
+    font-weight: 300;
+}
+.all{
+    color: blue;
+    font-weight: 400;
+}
+.active{
+    color: gray;
+    font-weight: 700;
+}
+.completed{
+    color: gray;
+    font-weight: 700;
+}
+.clear{
+    color: gray;
+    font-weight: 300;
+}
+.drag{
+    position: absolute;
+    color: gray;
+    top: 55%;
+    left: 42%;
+}
