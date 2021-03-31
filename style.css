@@ -34,6 +34,14 @@ h1{
     text-transform: uppercase;
     letter-spacing: 10px;
 }
+.mode{
+}
+.mode-button{
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
 .container-header{
     display: flex;
     justify-content: space-between;
@@ -64,7 +72,6 @@ h1{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 25px;
     border-bottom: 1px solid lightgrey;
 }
 .container-footer{
@@ -99,7 +106,7 @@ h1{
     font-weight: 300;
 }
 .drag{
-    position: absolute;
+    position:;
     color: gray;
     top: 55%;
     left: 42%;
